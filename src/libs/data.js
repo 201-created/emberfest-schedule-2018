@@ -109,7 +109,7 @@ export default [
         "speakers": [
           "Danielle Adams"
         ],
-        "description": "\“Building forms in @emberjs is terrifying because I'm stuck with decisions I always later regret.\”\n- me in another lifetime\n\nHTML forms can represent a time before JavaScript was an integral part of application development. Creating forms isn’t always the most exciting part of development and, at times, it may seem daunting. Fear not! I’d like to talk through some pain points of building an important piece of user interface: we will discuss what to do, what not to do, which Ember addons have come to the rescue, and how to make forms accessible."
+        "description": "\"Building forms in @emberjs is terrifying because I'm stuck with decisions I always later regret.\"\n- me in another lifetime\n\nHTML forms can represent a time before JavaScript was an integral part of application development. Creating forms isn’t always the most exciting part of development and, at times, it may seem daunting. Fear not! I’d like to talk through some pain points of building an important piece of user interface: we will discuss what to do, what not to do, which Ember addons have come to the rescue, and how to make forms accessible."
       },
       {
         "name": "Lunch",

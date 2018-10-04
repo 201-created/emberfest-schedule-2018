@@ -7,7 +7,7 @@ module.exports = function(environment) {
         EMBER_RESOLVER_MODULE_UNIFICATION: true
       }
     },
-    modulePrefix: 'emberconf',
+    modulePrefix: 'emberfest',
     environment,
     rootURL: '/',
     locationType: 'auto',

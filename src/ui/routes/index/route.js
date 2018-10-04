@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
-import Schedule from 'emberconf/src/libs/data';
-import SmoothScroll from 'emberconf/src/libs/smoothscroll';
+import Schedule from 'emberfest/src/libs/data';
+import SmoothScroll from 'emberfest/src/libs/smoothscroll';
 
 export default Route.extend({
   fastboot: service(),

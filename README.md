@@ -1,8 +1,8 @@
-# EmberConf 2018 Schedule
+# EmberFest 2018 Schedule
 
-[![TravisCi](https://travis-ci.org/201-created/emberconf-schedule-2018.svg?branch=master)](https://travis-ci.org/201-created/emberconf-schedule-2018)
+[![TravisCI](https://travis-ci.org/201-created/emberfest-schedule-2018.svg?branch=master)](https://travis-ci.org/201-created/emberfest-schedule-2018)
 
-_This tech demo is brought to you via the EmberConf sponsorship from 201 Created. Like this demo project and want to explore these cutting edge features with your own codebase? 201 Created has worked on dozens of apps with Fortune 50 companies and Y-combinator startups. Visit [201-created.com](https://www.201-created.com/) or email [hello@201-created.com](mailto:hello@201-created.com) to talk with us._
+_This tech demo is brought to you via the EmberFest sponsorship from 201 Created. Like this demo project and want to explore these cutting edge features with your own codebase? 201 Created has worked on dozens of apps with Fortune 50 companies and Y-combinator startups. Visit [201-created.com](https://www.201-created.com/) or email [hello@201-created.com](mailto:hello@201-created.com) to talk with us._
 
 ## Features
 
@@ -16,8 +16,6 @@ _This tech demo is brought to you via the EmberConf sponsorship from 201 Created
   * Review the project's file structure organized within `src` directory rather than `app`
   * Uses local component lookup (components found in context-aware `-component` directories)
 
-  Be sure to watch "Who Moved My Cheese" by Mathew Beale at EmberConf on 3/13 at 3:00 to see more about this feature.
-
 * [Fastboot Rehydration](https://github.com/glimmerjs/glimmer-vm/commit/316805b9175e01698120b9566ec51c88d075026a)
 
   What is Rehydration?
@@ -26,14 +24,6 @@ _This tech demo is brought to you via the EmberConf sponsorship from 201 Created
   using Server Side Rendering (SSR) and use it as the starting point for the
   append pass. This reuses the rendering work already done on the server, allowing
   Ember applications to start with the existing DOM rather than throwing it away and generating it all over again client-side.
-
-* [Separate WASM Version](https://schedule-wasm.emberconf.com) Also Available
-  * Deployed separately because Mobile Safari has temporarily dropped WASM support ☹️
-
-  What we mean by a WASM version is that the version at
-  schedule-wasm.emberconf.com has a version of Ember.js compiled with a version
-  of glimmer-vm that utilizes Web Assembly transpiled from Rust code to do much
-  of the low-level (super-duper low level) heavy lifting.
 
 * [ES5 Getters](https://github.com/emberjs/rfcs/blob/master/text/0281-es5-getters.md)
 
@@ -56,8 +46,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone git@github.com:201-created/emberconf-schedule-2018.git` this repository
-* `cd emberconf-schedule-2018`
+* `git clone git@github.com:201-created/emberfest-schedule-2018.git` this repository
+* `cd emberfest-schedule-2018`
 * `yarn install`
 
 ## Running / Development
@@ -88,15 +78,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 ### Deploying
 
 Deployment to Heroku occurs automatically for the `master` branch.
-
-## Updating Source Data
-
-A Ruby rake task is included in this project's `Rakefile` that will update the contents of `app/lib/data.js`:
-
-```shell
-bundle install
-bundle exec rake
-```
 
 ## Further Reading / Useful Links
 

@@ -17,7 +17,7 @@ module.exports = function(defaults) {
     'ember-inline-css': {
       filter: [
         '/assets/vendor.css',
-        '/assets/emberconf.css'
+        '/assets/emberfest.css'
       ]
     },
     'ember-service-worker': {

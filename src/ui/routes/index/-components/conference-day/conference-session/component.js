@@ -1,7 +1,7 @@
 import Component from '@ember/component';
 import { computed } from '@ember/object';
-import ENV from 'emberconf/config/environment';
-import moment from 'emberconf/src/libs/moment';
+import ENV from 'emberfest/config/environment';
+import moment from 'emberfest/src/libs/moment';
 
 const TIME_FORMAT = 'HH:mm';
 

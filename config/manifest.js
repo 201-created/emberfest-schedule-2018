@@ -6,9 +6,9 @@ module.exports = function(/* environment, appConfig */) {
   // supported properties
 
   return {
-    name: "EmberConf",
-    short_name: "EmberConf",
-    description: "EmberConf 2018 Schedule",
+    name: "EmberFest",
+    short_name: "EmberFest",
+    description: "EmberFest 2018 Schedule",
     start_url: "/",
     display: "standalone",
     background_color: "#e8edf1",
