@@ -26,7 +26,7 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-      UTC_OFFSET: '-07:00',
+      UTC_OFFSET: '+01:00',
       shouldForceDayOne: false,
       shouldUpdateTime: true
     }

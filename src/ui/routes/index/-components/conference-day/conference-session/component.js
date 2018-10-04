@@ -3,6 +3,8 @@ import { computed } from '@ember/object';
 import ENV from 'emberconf/config/environment';
 import moment from 'emberconf/src/libs/moment';
 
+const TIME_FORMAT = 'HH:mm';
+
 export default Component.extend({
   classNames: ['session'],
   classNameBindings: ['isBreak', 'isExpanded', 'isNow', 'isPast'],
@@ -24,13 +26,12 @@ export default Component.extend({
   }),
 
   formattedTime: computed('session.{start,end}', function() {
-    let startMoment = this._pdxMoment(this.get('session.start'));
-    let endMoment = this._pdxMoment(this.get('session.end'));
-    let startFormat = (startMoment.format('a') === endMoment.format('a')) ? 'h:mm' : 'h:mma';
-    return `${startMoment.format(startFormat)}-${endMoment.format('h:mma')}`;
+    let startMoment = this._localMoment(this.get('session.start'));
+    let endMoment = this._localMoment(this.get('session.end'));
+    return `${startMoment.format(TIME_FORMAT)}-${endMoment.format(TIME_FORMAT)}`;
   }),
 
-  _pdxMoment(timestamp) {
+  _localMoment(timestamp) {
     return moment(timestamp).utcOffset(ENV.APP.UTC_OFFSET);
   },
 
