@@ -18,7 +18,7 @@ export default Component.extend({
   }),
 
   isNow: computed('now', 'session.{start,end}', function() {
-    return moment(this.now).isBetween(this.get('session.start', null, '[)'), this.get('session.end'));
+    return moment(this.now).isBetween(this.get('session.start'), this.get('session.end'), null, '[)');
   }),
 
   isPast: computed('now', 'session.end', function() {
