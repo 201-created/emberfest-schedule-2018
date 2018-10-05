@@ -13,7 +13,7 @@ export default Component.extend({
       if (this.get('fastboot.isFastBoot')) {
         return true;
       } else {
-        return document.cookie.split(';').indexOf('isDismissed=true')  >= 0;
+        return document.cookie.split(';').filter(i => i.includes('isDismissed=true')).length > 0;
       }
     },
     set(key, value) { // eslint-disable-line no-unused-vars
