@@ -24,8 +24,10 @@ module.exports = function(defaults) {
       registrationStrategy: 'inline',
       versionStrategy: 'project-revision'
     },
-    'esw-cache-fallback': {
-      patterns: [ '/' ],
+    prember: {
+      urls: [
+        '/'
+      ]
     },
     vendorFiles: {
       'jquery.js': null
