@@ -11,7 +11,7 @@ module.exports = function(/* environment, appConfig */) {
     description: "EmberFest 2018 Schedule",
     start_url: "/",
     display: "standalone",
-    background_color: "#e8edf1",
+    background_color: "#f2f2f1",
     theme_color: "#e15d44",
     icons: [
       {
@@ -31,18 +31,13 @@ module.exports = function(/* environment, appConfig */) {
         src: '/icons/favicon.png',
         sizes: '32x32',
         targets: ['favicon']
-      },
-      {
-        src: '/icons/logo-mono.svg',
-        safariPinnedTabColor: '#e15d44', // non-standard property
-        targets: ['safari-pinned-tab'] // non-standard-property
       }
     ],
     apple: {
       statusBarStyle: 'black-translucent'
     },
     ms: {
-      tileColor: '#001d36'
+      tileColor: '#f2f2f1'
     }
   };
 }
