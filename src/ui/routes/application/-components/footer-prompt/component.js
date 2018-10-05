@@ -18,7 +18,7 @@ export default Component.extend({
     },
     set(key, value) { // eslint-disable-line no-unused-vars
       if (!this.get('fastboot.isFastBoot')) {
-        document.cookie = 'isDismissed=true';
+        document.cookie = 'isDismissed=true;max-age=86400';
       }
       return value;
     }
