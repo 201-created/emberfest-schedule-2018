@@ -4,16 +4,16 @@ export default [
     "sessions": [
       {
         "name": "Opening Keynote",
-        "start": "2018-10-11T10:00:00+01:00",
-        "end": "2018-10-11T10:30:00+01:00",
+        "start": "2018-10-11T10:00:00+02:00",
+        "end": "2018-10-11T10:30:00+02:00",
         "speakers": [
           "Tom Dale"
         ]
       },
       {
         "name": "Principles from Leaders Across the Ember Community",
-        "start": "2018-10-11T10:45:00+01:00",
-        "end": "2018-10-11T11:15:00+01:00",
+        "start": "2018-10-11T10:45:00+02:00",
+        "end": "2018-10-11T11:15:00+02:00",
         "speakers": [
           "Scott Newcomer"
         ],
@@ -21,8 +21,8 @@ export default [
       },
       {
         "name": "From the Browser to the Home Screen: PWAing Your Ember App",
-        "start": "2018-10-11T11:30:00+01:00",
-        "end": "2018-10-11T12:00:00+01:00",
+        "start": "2018-10-11T11:30:00+02:00",
+        "end": "2018-10-11T12:00:00+02:00",
         "speakers": [
           "Kevin Pfefferle"
         ],
@@ -30,13 +30,13 @@ export default [
       },
       {
         "name": "Lunch",
-        "start": "2018-10-11T12:00:00+01:00",
-        "end": "2018-10-11T13:30:00+01:00"
+        "start": "2018-10-11T12:00:00+02:00",
+        "end": "2018-10-11T13:30:00+02:00"
       },
       {
         "name": "ELS - the Ember Language Server",
-        "start": "2018-10-11T13:30:00+01:00",
-        "end": "2018-10-11T14:00:00+01:00",
+        "start": "2018-10-11T13:30:00+02:00",
+        "end": "2018-10-11T14:00:00+02:00",
         "speakers": [
           "Tobias Bieniek"
         ],
@@ -44,8 +44,8 @@ export default [
       },
       {
         "name": "Transformers: Codemods in Disguise",
-        "start": "2018-10-11T14:15:00+01:00",
-        "end": "2018-10-11T14:45:00+01:00",
+        "start": "2018-10-11T14:15:00+02:00",
+        "end": "2018-10-11T14:45:00+02:00",
         "speakers": [
           "Jonathan Jackson"
         ],
@@ -53,18 +53,18 @@ export default [
       },
       {
         "name": "Lightning Talks",
-        "start": "2018-10-11T15:00:00+01:00",
-        "end": "2018-10-11T15:30:00+01:00",
+        "start": "2018-10-11T15:00:00+02:00",
+        "end": "2018-10-11T15:30:00+02:00",
       },
       {
         "name": "Snack Break",
-        "start": "2018-10-11T15:30:00+01:00",
-        "end": "2018-10-11T16:00:00+01:00"
+        "start": "2018-10-11T15:30:00+02:00",
+        "end": "2018-10-11T16:00:00+02:00"
       },
       {
         "name": "Crafting Web Comics with Ember",
-        "start": "2018-10-11T16:00:00+01:00",
-        "end": "2018-10-11T16:30:00+01:00",
+        "start": "2018-10-11T16:00:00+02:00",
+        "end": "2018-10-11T16:30:00+02:00",
         "speakers": [
           "Jessica Jordan"
         ],
@@ -72,8 +72,8 @@ export default [
       },
       {
         "name": "Going Realtime with Ember",
-        "start": "2018-10-11T16:45:00+01:00",
-        "end": "2018-10-11T17:15:00+01:00",
+        "start": "2018-10-11T16:45:00+02:00",
+        "end": "2018-10-11T17:15:00+02:00",
         "speakers": [
           "Michael Lange"
         ],
@@ -86,8 +86,8 @@ export default [
     "sessions": [
       {
         "name": "Honey, I Shrunk Your Ember App",
-        "start": "2018-10-12T10:00:00+01:00",
-        "end": "2018-10-12T10:30:00+01:00",
+        "start": "2018-10-12T10:00:00+02:00",
+        "end": "2018-10-12T10:30:00+02:00",
         "speakers": [
           "Simon Ihmig"
         ],
@@ -95,8 +95,8 @@ export default [
       },
       {
         "name": "Deliver Fast Apps Even Faster",
-        "start": "2018-10-12T10:45:00+01:00",
-        "end": "2018-10-12T11:15:00+01:00",
+        "start": "2018-10-12T10:45:00+02:00",
+        "end": "2018-10-12T11:15:00+02:00",
         "speakers": [
           "Marco Otte-Witte"
         ],
@@ -104,8 +104,8 @@ export default [
       },
       {
         "name": "Mastering the Art of Forms",
-        "start": "2018-10-12T11:30:00+01:00",
-        "end": "2018-10-12T12:00:00+01:00",
+        "start": "2018-10-12T11:30:00+02:00",
+        "end": "2018-10-12T12:00:00+02:00",
         "speakers": [
           "Danielle Adams"
         ],
@@ -113,13 +113,13 @@ export default [
       },
       {
         "name": "Lunch",
-        "start": "2018-10-12T12:00:00+01:00",
-        "end": "2018-10-12T13:30:00+01:00"
+        "start": "2018-10-12T12:00:00+02:00",
+        "end": "2018-10-12T13:30:00+02:00"
       },
       {
         "name": "No Graph Theory Required: Ember and GraphQL in Practice",
-        "start": "2018-10-12T13:30:00+01:00",
-        "end": "2018-10-12T14:00:00+01:00",
+        "start": "2018-10-12T13:30:00+02:00",
+        "end": "2018-10-12T14:00:00+02:00",
         "speakers": [
           "Rocky Neurock",
           "Chad Carbert"
@@ -128,8 +128,8 @@ export default [
       },
       {
         "name": "Bringing Coffee Tasting to Rural Areas with Ember & Cordova",
-        "start": "2018-10-12T14:15:00+01:00",
-        "end": "2018-10-12T14:45:00+01:00",
+        "start": "2018-10-12T14:15:00+02:00",
+        "end": "2018-10-12T14:45:00+02:00",
         "speakers": [
           "Francesco Novy"
         ],
@@ -137,8 +137,8 @@ export default [
       },
       {
         "name": "The State of Community Documentation",
-        "start": "2018-10-12T15:00:00+01:00",
-        "end": "2018-10-12T15:30:00+01:00",
+        "start": "2018-10-12T15:00:00+02:00",
+        "end": "2018-10-12T15:30:00+02:00",
         "speakers": [
           "Kenneth Larsen"
         ],
@@ -146,13 +146,13 @@ export default [
       },
       {
         "name": "Snack Break",
-        "start": "2018-10-12T15:30:00+01:00",
-        "end": "2018-10-12T16:00:00+01:00"
+        "start": "2018-10-12T15:30:00+02:00",
+        "end": "2018-10-12T16:00:00+02:00"
       },
       {
         "name": "The Future of Templating in Ember",
-        "start": "2018-10-12T16:00:00+01:00",
-        "end": "2018-10-12T16:30:00+01:00",
+        "start": "2018-10-12T16:00:00+02:00",
+        "end": "2018-10-12T16:30:00+02:00",
         "speakers": [
           "Chad Hietala"
         ],
@@ -160,8 +160,8 @@ export default [
       },
       {
         "name": "Closing Keynote",
-        "start": "2018-10-12T16:45:00+01:00",
-        "end": "2018-10-12T17:15:00+01:00",
+        "start": "2018-10-12T16:45:00+02:00",
+        "end": "2018-10-12T17:15:00+02:00",
         "speakers": [
           "Melanie Sumner"
         ]
