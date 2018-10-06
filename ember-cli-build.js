@@ -23,7 +23,6 @@ module.exports = function(defaults) {
       ]
     },
     'ember-service-worker': {
-      registrationStrategy: 'inline',
       versionStrategy: 'project-revision'
     },
     fingerprint: {
