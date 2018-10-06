@@ -12,8 +12,7 @@ module.exports = function(defaults) {
       include: [
         'assets/**/*',
         'icons/**/*',
-        'manifest.webmanifest',
-        'https://dehqs5in8mnb0.cloudfront.net/**/*'
+        '*.webmanifest'
       ]
     },
     'ember-inline-css': {
