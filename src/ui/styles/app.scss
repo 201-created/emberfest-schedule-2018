@@ -38,6 +38,14 @@ header {
     width: 5rem;
     background-color: transparent;
 
+    &:first-child {
+      color: $ember;
+      font: 22px/20px Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+    }
+
     &:last-child {
       text-align: right;
     }
