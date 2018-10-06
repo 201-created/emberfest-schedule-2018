@@ -24,6 +24,9 @@ module.exports = function(defaults) {
       registrationStrategy: 'inline',
       versionStrategy: 'project-revision'
     },
+    fingerprint: {
+      prepend: 'https://dehqs5in8mnb0.cloudfront.net/'
+    },
     prember: {
       urls: [
         '/'
