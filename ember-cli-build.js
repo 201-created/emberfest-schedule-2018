@@ -1,6 +1,7 @@
 'use strict';
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const broccoliAssetRevDefaults = require( 'broccoli-asset-rev/lib/default-options' );
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
@@ -25,6 +26,7 @@ module.exports = function(defaults) {
       versionStrategy: 'project-revision'
     },
     fingerprint: {
+      extensions: broccoliAssetRevDefaults.extensions.concat(['webmanifest']),
       prepend: 'https://dehqs5in8mnb0.cloudfront.net/'
     },
     prember: {
