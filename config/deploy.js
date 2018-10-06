@@ -9,7 +9,7 @@ module.exports = function(deployTarget) {
     },
     s3: {
       accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
       filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,otf,wasm,webmanifest}'
     },
     cloudfront: {
