@@ -164,7 +164,8 @@ export default [
         "end": "2018-10-12T17:15:00+02:00",
         "speakers": [
           "Melanie Sumner"
-        ]
+        ],
+        "description": "Comfortable with Uncertainty"
       }
     ]
   }
