@@ -9,7 +9,7 @@ module.exports = function(/* environment, appConfig */) {
     name: "EmberFest",
     short_name: "EmberFest",
     description: "EmberFest 2018 Schedule",
-    start_url: "https://d3ojrcukkcukke.cloudfront.net/",
+    start_url: "https://emberfest.201-created.com/",
     display: "standalone",
     background_color: "#f2f2f1",
     theme_color: "#e15d44",
