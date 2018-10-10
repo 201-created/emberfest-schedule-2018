@@ -1,5 +1,7 @@
 # EmberFest 2018 Schedule
 
+_Adapted for EmberFest from [github.com/201-created/emberconf-schedule-2018](https://github.com/201-created/emberconf-schedule-2018)_
+
 [![TravisCI](https://travis-ci.org/201-created/emberfest-schedule-2018.svg?branch=master)](https://travis-ci.org/201-created/emberfest-schedule-2018)
 
 _This tech demo is brought to you via the EmberFest sponsorship from 201 Created. Like this demo project and want to explore these cutting edge features with your own codebase? 201 Created has worked on dozens of apps with Fortune 50 companies and Y-combinator startups. Visit [201-created.com](https://www.201-created.com/) or email [hello@201-created.com](mailto:hello@201-created.com) to talk with us._
