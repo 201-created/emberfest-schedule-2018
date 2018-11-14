@@ -1,0 +1,302 @@
+export default [
+  {
+    date: "2018-11-15",
+    sessions: [
+      {
+        type: "intermission",
+        talk: "Doors open",
+        start: "8:00"
+      },
+      {
+        type: "intermission",
+        talk: "Opening Ceremonies",
+        start: "9:15"
+      },
+      {
+        name: "Tara Vancil",
+        talk: "Reclaiming the Web with peer-to-peer protocols",
+        blurb:
+          "Tara is the co-creator of the Beaker Browser, a browser for exploring and building the peer-to-peer Web. She's part of Blue Link Labs, a team of Web enthusiasts behind the Beaker Browser, the Dat protocol, and hashbase.io. She's dedicated to building the Web of tomorrow as a Web for all.",
+        avatar: "/speakers/taravancil.jpg",
+        twitter: "taravancil",
+        start: "9:30"
+      },
+      {
+        name: "Shannon Capper",
+        talk: "Augmenting the Internet with Browser Extensions",
+        blurb:
+          "A browser extension can give you the power to add a whole new user experience to any page on the Internet, but it also introduces some unique problems. In this talk, we’ll discuss some of the challenges my team at Textio faced when we built an extension to augment the writing experience on pages across the web, as well as the solutions we discovered for making our plugin low-profile and extensible.",
+        avatar: "/speakers/shannon-capper.jpg",
+        github: "shannonlcapper",
+        start: "10:00"
+      },
+      {
+        name: "Dominic Farolino",
+        talk: "Hitchhiker's Guide to Web Standards",
+        blurb:
+          "Web standards and their corresponding organizations can be your best friend, and extremely daunting at the same time. As a web developer, you are in the unique position of being able to influence the platform you develop on every day - so come and learn how the world of web standards works, how to contribute to the web standards community, and about some of the latest platform trends.",
+        avatar: "/speakers/dominic.png",
+        twitter: "domfarolino",
+        start: "10:30"
+      },
+      {
+        type: "intermission",
+        talk: "Coffee Break",
+        start: "10:55"
+      },
+      {
+        name: "Lauren Lee",
+        talk: "Why I chose to modularize the ducks in my React App ",
+        blurb:
+          "React and Redux are awesome but the state management can be overwhelming for beginners. This talk is all about how to keep your code DRY, scalable, and maintainable- the dream trifecta!- regardless of its size and scope. Creating “ducks”, or modularized components, allows you to keep all of your state in one place and avoid creating a new file for every single action and reducer. This talk will cover how to create those ducks!",
+        avatar: "/speakers/laurenlee.jpg",
+        twitter: "LoLoCoding",
+        start: "11:20"
+      },
+      {
+        name: "Megan Slater",
+        talk: "Lessons in WebAssembly: Client Side Video Editing",
+        blurb:
+          "WebAssembly elicits hopes about everything from importing new functionalities into browser based applications, to the potential (and in some circles hoped for) death of JavaScript. This talk is for folks who are curious about the real world applications and limitations of WebAssembly as it exists today. We'll follow along the journey of some intrepid developers as they integrate the popular FFmpeg multimedia framework into a React application for the purposes of editing video client side.",
+        avatar: "/speakers/slater.jpg",
+        twitter: "meslater1030",
+        start: "11:50"
+      },
+      {
+        name: "Patrick Woo",
+        talk: "SPA at Scale",
+        blurb:
+          "At AWS for Everyone, we’re building v1 of a single page app, a new product that will transform many industries and change how people work.  We recently went through re-architecture of 200k lines of Front-end code, with the goals to scale the application for millions of customers, increase developer velocity for feature development, and speed up new team member ramp up time.  In this talk we will share top 5 lessons learn from our experience - in hindsight, what would we do/don’t do when building a large scale SPA.",
+        avatar: "/speakers/patrickwoo.jpg",
+        twitter: "patrickwoo",
+        start: "12:20"
+      },
+      {
+        type: "intermission",
+        talk: "Lunch",
+        start: "12:45"
+      },
+      {
+        name: "Shannon Foster",
+        talk: "Down the rabbit hole with WebVR",
+        blurb:
+          "The evolution of user interactivity on the web has birthed the growing advancements of web innovation and creativity. Pushing developers and designers to look for unique ways to engage and immerse our users. From utilizing AR in online retail to show what products would physically look like either in a living space or on the users themselves, to banking in VR where low-poly animations are used to teach money management. Let's explore available VR tools, from A-Frame and beyond, and different use cases for developing in VR for the web.",
+        avatar: "/speakers/shannon-foster.jpg",
+        twitter: "SheCanTech",
+        start: "14:10"
+      },
+      {
+        name: "Tre Ammatuna",
+        talk: "Building a culture of learning and growth",
+        blurb:
+          "From junior dev to C-level executive, continued education and growth are keys to success in today rapidly advancing tech industry. Everyone benefits from a culture built around these ideas that help you and your team not only keep up with the changes, but also share knowledge already gained.",
+        avatar: "/speakers/tre.jpg",
+        twitter: "tretuna",
+        start: "14:40"
+      },
+      {
+        name: "Elgin-Skye McLaren",
+        talk: "Creative Coding & Opening Up Open Source",
+        blurb:
+          "This presentation is about coding interactive art in the browser. I will talk about p5js — what it is, and what we as developers can learn from its intentionally inclusive community.",
+        avatar: "/speakers/elgin-mcLaren.jpg",
+        twitter: "elginskye",
+        start: "15:10"
+      },
+      {
+        type: "intermission",
+        talk: "Coffee Break",
+        start: "15:35"
+      },
+      {
+        name: "Julie Busch",
+        talk: "Creative Collaboration: Building a Universal Design System",
+        blurb:
+          "Condé Nast, the publisher of such titles as WIRED, The New Yorker, GQ, Vogue, and Vanity Fair, consolidated the codebases of their 20+ websites to improve development speed and product flexibility. Multiple engineering teams built various interconnected components of the new software from the ground up; concurrently, design teams created a system that allows the publications to share the same code and retain their unique look and feel. This presentation explores early challenges of this change and how the evolution of our workflow streamlined the design and development process.",
+        avatar: "/speakers/julie.jpg",
+        linkedin: "julie-busch",
+        start: "16:00"
+      },
+      {
+        name: "Michael Lange",
+        talk: "Open Source and the Volunteer Workforce",
+        blurb:
+          "How did a band of merry volunteers build an open data platform to promote civic discourse in Portland? The answer involves open source tools, trial and error, cognizant community building, and JavaScript!",
+        avatar: "/speakers/michael-lange.jpg",
+        twitter: "DingoEatingFuzz",
+        start: "16:30"
+      },
+      {
+        name: "Yehuda Katz",
+        talk: "Secret Talk",
+        blurb: "",
+        avatar: "/speakers/yehuda.jpg",
+        twitter: "wycats",
+        start: "17:00"
+      },
+      {
+        type: "intermission",
+        talk: "Wrap Up",
+        start: "17:25"
+      },
+      {
+        type: "intermission",
+        talk: "Doors open at Cinerama",
+        start: "20:00"
+      },
+      {
+        type: "intermission",
+        talk: "Movie Starts",
+        start: "20:45"
+      }
+    ]
+  },
+  {
+    date: "2018-11-16",
+    session: [
+      {
+        type: "intermission",
+        talk: "Doors open",
+        start: "8:00"
+      },
+      {
+        type: "intermission",
+        talk: "Opening Ceremonies",
+        start: "9:15"
+      },
+      {
+        name: "Brian Leroux",
+        talk: "Even Faster: now with Functions!",
+        blurb:
+          "The secret weapon of serverless architectures is extremely fast deployments with zero downtime. Surgical deploys allow for updating a single function in place within 1 second. All this adds up to faster iterations, which means quicker turnaround and that equals: super stoked devs!",
+        avatar: "/speakers/leroux.jpg",
+        twitter: "brianleroux",
+        start: "9:30"
+      },
+      {
+        name: "Laker Sparks",
+        talk: "Fostering the Next Generation of Developers",
+        blurb:
+          "When you hear about a development studio, you may typically think about a group of industry experts with years of experience and education. But there is a new generation of emerging developers who are not content to wait for college, or even high school to get in the game. As the head of Information Experience on Roblox, Laker Sparks has seen young hobbyist programmers transform into multi-million dollar development teams. In this talk, he will share his learnings and observations about the experiences and challenges of these young developers, and then discuss resources and techniques you can use to help foster this next generation of developers and creators.",
+        avatar: "/speakers/laker.png",
+        twitter: "UristMcSparks",
+        start: "10:00"
+      },
+      {
+        name: "Will Klein",
+        talk: "How Linters, Compilers & Other Cool Things Work",
+        blurb:
+          "Step inside your everyday JavaScript tools, and you’ll find the abstract syntax tree. With the AST, let’s discover how our tools work, how we can extend them, and build a better understanding of computer language along the way.",
+        avatar: "/speakers/will.jpg",
+        twitter: "WillsLab",
+        start: "10:30"
+      },
+      {
+        type: "intermission",
+        talk: "Coffee Break",
+        start: "10:55"
+      },
+      {
+        name: "Faddah Wolf",
+        talk: "Teaching the Sighted to Touch & Feel a Bit More",
+        blurb:
+          "Braille is becoming more and more ubiquitous in many common spaces — airports, malls, libraries, etc. A college in Oregon needed an App built to help teach the friends \u0026 family of those who are sight impaired how to read Braille. Faddah Wolf will go over what accessibility options there are in common Mobile OS's, how he created a React Native six-key-input keyboard for Braille and how you can contribute to this Open Source project.",
+        avatar: "/speakers/faddah.jpg",
+        twitter: "yuetsu",
+        start: "11:20"
+      },
+      {
+        name: "Aaron Gustafson",
+        talk: "Conversational Semantics for the Web",
+        blurb:
+          "Over time, your users will become more accustomed to and reliant on voice-based interactions with their computers and, thereby, the web. Enabling them to complete critical tasks without a visual user interface will be crucial for the long-term success of your website. In this session, Aaron Gustafson will discuss how smart markup choices can improve the overall usability and accessibility of your projects without disrupting your current workflow.",
+        avatar: "/speakers/gustafson.jpg",
+        twitter: "aarongustafson",
+        start: "11:50"
+      },
+      {
+        name: "Memo Döring",
+        talk: "Move over GUI, let's build a VUI with JavaScript!",
+        blurb:
+          "The ability to use our voice to to interact with technology opens up a whole new world of posibilites for users, designers and developers. Join us at this session where we will talk about the best practices we have uncovered in the rapidly evolving voice first ecosystem. The session will include a live-coding demo on using AWS Lambda to building and deploy a VUI in minutes.",
+        avatar: "/speakers/memo.png",
+        twitter: "memodoring",
+        start: "12:20"
+      },
+      {
+        type: "intermission",
+        talk: "Lunch",
+        start: "12:45"
+      },
+      {
+        name: "Pranshu Bajpai",
+        talk: "Raiders of the Javascript-based Malware",
+        blurb:
+          "Some modern malware are designed entirely in Javascript and executed using the default Windows Script Host or within the user's browser. In this talk, we discuss the design, operation, and implementation intricacies of Javascript-based ransomware and cryptojacking malware.",
+        avatar: "/speakers/pranshu.jpg",
+        twitter: "amirootyet",
+        start: "14:10"
+      },
+      {
+        name: "Atishay Jain",
+        talk: "N-API - The new native in node.js",
+        blurb:
+          "Ever tried calling C++ from Node or Electron. Hate native modules because of the compilation and maintenance issues. This talk is all about the solution to this problem - N-API that is stable with node 10. C++ to Node.js interop is a lot of fun.",
+        avatar: "/speakers/atishay.jpg",
+        github: "atishay",
+        start: "14:40"
+      },
+      {
+        name: "Glenn Block",
+        talk: "Let’s Talk About Mentoring",
+        blurb:
+          "Throughout my career I've had many mentors who have been critical to my own growth. I'll just say it, you should have a mentor and you should be a mentor. Intrigued to know why? Come to this talk. In this session we'll talk about why you should care about mentoring and how it can help you with your career, how you can find a mentor, the components of a mentor-lationship, what makes a good mentor, and how you can become one.",
+        avatar: "/speakers/gblock.jpg",
+        twitter: "gblock",
+        start: "15:10"
+      },
+      {
+        type: "intermission",
+        talk: "Coffee Break",
+        start: "15:35"
+      },
+      {
+        name: "James Snell",
+        talk: "Observing Node.js",
+        blurb:
+          "Understanding what is really happening within your Node.js processes can be... Difficult. I'll pull back the curtain and demonstrate tools and techniques for observing Node.js.",
+        avatar: "/speakers/snell.jpg",
+        twitter: "jasnell",
+        start: "16:00"
+      },
+      {
+        name: "Ruth John",
+        talk: "How To Be a Web AV Artist",
+        blurb:
+          "Come and be fascinated by the world of audio visualisation in a browser. This isn’t just about creating stunning data vis to music! We see how we can pipe data realtime into custom properties to enhance our visuals. Ruth will re-address how we analyse sound via the Web Audio API and proposes a better way of processing the data to better suit music. And, to top it all off, we harness the Web MIDI API for full hardware control as well. You may not think it, but this really is a talk with a great deal of take-aways and new techniques for you to consider in your coding life.",
+        avatar: "/speakers/ruth.jpg",
+        twitter: "Rumyra",
+        start: "16:30"
+      },
+      {
+        name: "Mikeal Rogers",
+        talk: "The Future of the Web",
+        blurb:
+          "The original vision of the Internet was for a fully decentralized system that empowered its users at the edges. In the many years since the birth of The Web we’ve moved more towards centralized structures to solve the issues of scale and data and it has not come without consequence. In order to move past these issues we need new primitives for a new vision of The Web that can be decentralized.",
+        avatar: "/speakers/mikeal.png",
+        twitter: "mikeal",
+        start: "17:00"
+      },
+      {
+        type: "intermission",
+        talk: "Wrap Up",
+        start: "17:25"
+      },
+      {
+        type: "intermission",
+        talk: "Doors open at Living Computers",
+        start: "18:30"
+      }
+    ]
+  }
+];
