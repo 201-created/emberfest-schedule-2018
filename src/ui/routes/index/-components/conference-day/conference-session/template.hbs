@@ -1,29 +1,27 @@
 <small>{{formattedTime}}</small>
 
-<h3>{{session.name}}</h3>
+<h3>{{session.talk}}</h3>
 
-{{#if session.speakers}}
+{{#if session.name}}
   <ul class="speakers">
-    {{#each session.speakers as |speaker|}}
-      <li>{{speaker}}</li>
-    {{/each}}
+    <li>{{session.name}}</li>
   </ul>
 {{/if}}
 
-{{#if session.description}}
+{{#if session.blurb}}
   <div class="description">
-    <p>{{session.description}}</p>
+    <p>{{session.blurb}}</p>
 
-    {{#if session.sessions}}
-      <ul class="minitalks">
-        {{#each session.sessions as |minitalk|}}
-          <li>
-            <small>{{minitalk.time}}</small>
-            <h4>{{minitalk.title}}</h4>
-            <p>{{minitalk.speaker}}</p>
-          </li>
-        {{/each}}
-      </ul>
-    {{/if}}
+    <ul class="links">
+      {{#if session.twitter}}
+        Twitter: <a href="https://twitter.com/{{session.twitter}}" target="_blank">@{{session.twitter}}</a>
+      {{/if}}
+      {{#if session.github}}
+        Github: <a href="https://github.com/{{session.github}}" target="_blank">{{session.github}}</a>
+      {{/if}}
+      {{#if session.linkedin}}
+        LinkedIn: <a href="https://linkedin.com/in/{{session.linkedin}}" target="_blank">{{session.linkedin}}</a>
+      {{/if}}
+    </ul>
   </div>
 {{/if}}
