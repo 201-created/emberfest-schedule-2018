@@ -15,23 +15,36 @@ export default Controller.extend({
   _setNow() {
     if (ENV.APP.shouldForceDayOne) {
       // Use conf Day 1 for development
-      let time = moment().utcOffset(ENV.APP.UTC_OFFSET).format('HH:mm:ss');
+      let time = moment()
+        .utcOffset(ENV.APP.UTC_OFFSET)
+        .format('HH:mm:ss');
       this.set('now', moment(`2018-10-11T${time}${ENV.APP.UTC_OFFSET}`).format());
     } else {
       // Use real date and time for non-dev environments
-      this.set('now', moment().utcOffset(ENV.APP.UTC_OFFSET).format());
+      this.set(
+        'now',
+        moment()
+          .utcOffset(ENV.APP.UTC_OFFSET)
+          .format()
+      );
     }
 
-    if (!ENV.APP.shouldUpdateTime || this.get('fastboot.isFastBoot')) { return; }
+    if (!ENV.APP.shouldUpdateTime || this.get('fastboot.isFastBoot')) {
+      return;
+    }
 
-    later(this, function() {
-      this._setNow();
-    }, 10000);
+    later(
+      this,
+      function() {
+        this._setNow();
+      },
+      10000
+    );
   },
 
   init() {
     this._super(...arguments);
     // Commented out post-conference
     // this._setNow();
-  }
+  },
 });

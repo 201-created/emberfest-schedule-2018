@@ -12,7 +12,9 @@ export default Route.extend({
   },
 
   afterModel() {
-    if (this.get('fastboot.isFastBoot')) { return; }
+    if (this.get('fastboot.isFastBoot')) {
+      return;
+    }
 
     // Scroll to current/upcoming sessions
     this.scheduler.scheduleWork('afterContentPaint', () => {
@@ -20,10 +22,13 @@ export default Route.extend({
       let header = document.querySelector('header');
       let pastSessions = document.getElementsByClassName('is-past');
       if (pastSessions.length) {
-        let pastSession = pastSessions[pastSessions.length-1];
-        let topScrollSession = (header.offsetHeight > pastSession.offsetHeight) ? pastSessions[pastSessions.length-2] : pastSession;
+        let pastSession = pastSessions[pastSessions.length - 1];
+        let topScrollSession =
+          header.offsetHeight > pastSession.offsetHeight
+            ? pastSessions[pastSessions.length - 2]
+            : pastSession;
         topScrollSession.scrollIntoView({ block: 'start', behavior: 'smooth' });
       }
-    })
-  }
+    });
+  },
 });

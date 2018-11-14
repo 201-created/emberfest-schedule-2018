@@ -10,10 +10,10 @@ let moduleConfig = buildResolverConfig(config.modulePrefix);
  */
 
 merge(moduleConfig.types, {
-  config: { definitiveCollection: 'main' }
+  config: { definitiveCollection: 'main' },
 });
 moduleConfig.collections.main.types.push('config');
 
 export default Resolver.extend({
-  config: moduleConfig
+  config: moduleConfig,
 });

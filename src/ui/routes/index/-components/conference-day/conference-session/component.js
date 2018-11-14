@@ -18,7 +18,12 @@ export default Component.extend({
   }),
 
   isNow: computed('now', 'session.{start,end}', function() {
-    return moment(this.now).isBetween(this.get('session.start'), this.get('session.end'), null, '[)');
+    return moment(this.now).isBetween(
+      this.get('session.start'),
+      this.get('session.end'),
+      null,
+      '[)'
+    );
   }),
 
   isPast: computed('now', 'session.end', function() {
@@ -37,5 +42,5 @@ export default Component.extend({
 
   click() {
     this.toggleProperty('isExpanded');
-  }
+  },
 });

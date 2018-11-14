@@ -9,18 +9,20 @@ export default Component.extend({
   classNameBindings: ['isDismissed'],
 
   isDismissed: computed({
-    get(key) { // eslint-disable-line no-unused-vars
+    get(key) {
+      // eslint-disable-line no-unused-vars
       if (this.get('fastboot.isFastBoot')) {
         return true;
       } else {
         return document.cookie.split(';').filter(i => i.includes('isDismissed=true')).length > 0;
       }
     },
-    set(key, value) { // eslint-disable-line no-unused-vars
+    set(key, value) {
+      // eslint-disable-line no-unused-vars
       if (!this.get('fastboot.isFastBoot')) {
         document.cookie = 'isDismissed=true;max-age=86400';
       }
       return value;
-    }
-  })
+    },
+  }),
 });
