@@ -4,8 +4,8 @@ module.exports = function(environment) {
   let ENV = {
     'ember-resolver': {
       features: {
-        EMBER_RESOLVER_MODULE_UNIFICATION: true
-      }
+        EMBER_RESOLVER_MODULE_UNIFICATION: true,
+      },
     },
     modulePrefix: 'emberfest',
     environment,
@@ -15,21 +15,21 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-        'ember-module-unification': true
+        'ember-module-unification': true,
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
+        Date: false,
+      },
     },
 
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-      UTC_OFFSET: '+02:00',
+      UTC_OFFSET: '-08:00',
       shouldForceDayOne: false,
-      shouldUpdateTime: true
-    }
+      shouldUpdateTime: true,
+    },
   };
 
   if (environment === 'development') {
