@@ -18,7 +18,7 @@ export default Controller.extend({
       let time = moment()
         .utcOffset(ENV.APP.UTC_OFFSET)
         .format('HH:mm:ss');
-      this.set('now', moment(`2018-10-11T${time}${ENV.APP.UTC_OFFSET}`).format());
+      this.set('now', moment(`2018-11-15T${time}${ENV.APP.UTC_OFFSET}`).format());
     } else {
       // Use real date and time for non-dev environments
       this.set(
