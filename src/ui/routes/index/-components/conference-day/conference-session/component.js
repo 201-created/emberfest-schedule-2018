@@ -47,7 +47,9 @@ export default Component.extend({
     return moment(timestamp).utcOffset(ENV.APP.UTC_OFFSET);
   },
 
-  click() {
-    this.toggleProperty('isExpanded');
+  click(e) {
+    if (e.target.tagName !== 'A') {
+      this.toggleProperty('isExpanded');
+    }
   },
 });
