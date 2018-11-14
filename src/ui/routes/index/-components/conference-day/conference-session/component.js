@@ -3,7 +3,7 @@ import { computed } from '@ember/object';
 import ENV from 'emberfest/config/environment';
 import moment from 'emberfest/src/libs/moment';
 
-const TIME_FORMAT = 'HH:mm';
+const TIME_FORMAT = 'h:mma';
 
 export default Component.extend({
   classNames: ['session'],
@@ -33,6 +33,13 @@ export default Component.extend({
   formattedTime: computed('session.{start,end}', function() {
     let startMoment = this._localMoment(this.get('session.start'));
     let endMoment = this._localMoment(this.get('session.end'));
+
+    // If the event ends in the 11th hour, it's the last event of the day and doesn't have
+    // a real end time.
+    if (endMoment.hours() === 23) {
+      return startMoment.format(TIME_FORMAT);
+    }
+
     return `${startMoment.format(TIME_FORMAT)}-${endMoment.format(TIME_FORMAT)}`;
   }),
 
