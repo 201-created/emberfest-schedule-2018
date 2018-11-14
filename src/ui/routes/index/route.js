@@ -45,15 +45,13 @@ function format(schedule) {
       if (session.start.length === 4) session.start = '0' + session.start;
       session.start = moment(`${date}T${session.start}:00-08:00`).toDate();
 
+      // End time is the next session's start time or the end of the day
       const nextSession = next(day.sessions, index);
-      if (nextSession) {
-        // End time is the next session's start time
-        session.end = nextSession.start;
+      session.end = nextSession ? nextSession.start : '23:59';
 
-        // Convert end time to a date
-        if (session.end.length === 4) session.end = '0' + session.end;
-        session.end = moment(`${date}T${session.end}:00-08:00`).toDate();
-      }
+      // Convert end time to a date
+      if (session.end.length === 4) session.end = '0' + session.end;
+      session.end = moment(`${date}T${session.end}:00-08:00`).toDate();
     });
   });
 
